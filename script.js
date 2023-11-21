@@ -11,43 +11,43 @@ function changeContent(segment){
 
     if (segment === "comerciante"){
         const func_1 = `
-        <span><strong>Catálogo de Productos</strong></span>
+        <span><strong>Product Catalog</strong></span>
         <div class="ui-component-card--pricing-price">
           <img src="img/func-1c.svg" alt="">
         </div>
-        <span><small>Te mostramos y proporcionamos informacion sobre una gran variedad de productos de calidad.</small></span>
+        <span><small>We show you and provide information on a wide variety of quality products.</small></span>
         <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-          <li class="ui-component-list--item ui-component-list--item-check">Muestra una amplia variedad de productos agrícolas disponibles.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Proporciona descripciones detalladas, fotos y especificaciones.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Proporciona descripciones detalladas, fotos y especificaciones.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Displays a wide variety of agricultural products available.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Provides detailed descriptions, photos and specifications.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Provides detailed descriptions, photos and specifications.</li>
         </ul>
-        <a href="#" class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Inicia ahora</a>
+        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
         const func_2 = `
-        <span><strong>Seguimiento de Pedidos</strong></span>
+        <span><strong>Order Tracking</strong></span>
         <div class="ui-component-card--pricing-price">
           <img src="img/func-2c.svg" alt="">
         </div>
-        <span><small>Informacion a tiempo real del estado y ubicacion de su pedido.</small></span>
+        <span><small>Real time information on the status and location of your order.</small></span>
         <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-          <li class="ui-component-list--item ui-component-list--item-check">Brinda actualizaciones en tiempo real sobre el estado de los pedidos.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Notifica sobre la preparación, envío y entrega de los productos.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Facilita la coordinación logística y evita retrasos en las operaciones.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Provides real-time updates on order status.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Notifies about the preparation, shipment and delivery of the products.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Facilitates logistical coordination and avoids delays in operations.</li>
         </ul>
-        <a href="#" class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Inicia ahora</a>
+        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
         const func_3 = `
-        <span><strong>Calificaciones y Reseñas</strong></span>
+        <span><strong>Ratings and Reviews</strong></span>
         <div class="ui-component-card--pricing-price">
           <img src="img/func-3c.svg" alt="">
         </div>
-        <span><small>Califica y ayuda en nuestra increible comunidad.</small></span>
+        <span><small>Rate and help in our amazing community.</small></span>
         <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-          <li class="ui-component-list--item ui-component-list--item-check">Permite a los comerciantes calificar y dejar comentarios sobre los productos comprados.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Ayuda a otros comerciantes a tomar decisiones informadas.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Fomenta la transparencia y la confianza en la calidad de los productos.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Allows merchants to rate and leave comments on purchased products.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Help other traders make informed decisions.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Promotes transparency and confidence in product quality.</li>
         </ul>
-        <a href="#" class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Inicia ahora</a>
+        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
 
         card1.innerHTML = func_1;
@@ -55,43 +55,43 @@ function changeContent(segment){
         card3.innerHTML = func_3;
     } else if (segment === "agricultor"){
         const func_1 = `
-        <span><strong>Planificador de cultivos</strong></span>
+        <span><strong>Crop planner</strong></span>
               <div class="ui-component-card--pricing-price">
                 <img src="img/func-1.svg" alt="">
               </div>
-              <span><small>Permite organizar tus siembras, cosechas y actividades agrícolas de manera eficiente, maximizando tus resultados.</small></span>
+              <span><small>It allows you to organize your sowing, harvesting and agricultural activities efficiently, maximizing your results.</small></span>
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Crea calendarios de siembra y cosecha personalizados.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Recomendaciones basadas en datos climáticos y de suelo.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Recordatorios para tareas importantes, como riego y fertilización.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Create customized planting and harvesting calendars.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Recommendations based on climatic and soil data.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Reminders for important tasks, such as watering and fertilizing.</li>
               </ul>
-              <a href="#" class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Inicia ahora</a>
+              <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
         `;
         const func_2 = `
-        <span><strong>Seguimiento de Plagas y Enfermedades</strong></span>
+        <span><strong>Pest and Disease Monitoring</strong></span>
         <div class="ui-component-card--pricing-price">
           <img src="img/func-2.svg" alt="">
         </div>
-        <span><small>Te brinda información y consejos para mantener tus cosechas saludables.</small></span>
+        <span><small>It provides you with information and tips to keep your crops healthy.</small></span>
         <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-          <li class="ui-component-list--item ui-component-list--item-check">Base de datos de plagas y enfermedades comunes.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Consejos de prevención y control para mantener cultivos saludables.</li>
-          <li class="ui-component-list--item ui-component-list--item-check">Registrar observaciones y síntomas para un diagnóstico preciso.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Database of common pests and diseases.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Prevention and control tips to maintain healthy crops.</li>
+          <li class="ui-component-list--item ui-component-list--item-check">Record observations and symptoms for accurate diagnosis.</li>
         </ul>
-        <a href="#" class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Inicia ahora</a>
+        <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Start now</a>
         `;
         const func_3 = `
-        <span><strong>Registro de Insumos</strong></span>
+        <span><strong>Registration of Inputs</strong></span>
               <div class="ui-component-card--pricing-price">
                 <img src="img/func-3.svg" alt="">
               </div>
-              <span><small>Nuestra herramienta te ayuda a gestionar tus recursos y a tomar decisiones informadas.</small></span>
+              <span><small>Our tool helps you manage your resources and make informed decisions.</small></span>
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Almacena información detallada sobre cada insumo utilizado.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Lleva un seguimiento de las cantidades, fechas y proveedores.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Calcula los costos totales de insumos por cultivo y temporada.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Stores detailed information on each input used.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Keeps track of quantities, dates and suppliers.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Calculate total input costs by crop and season.</li>
               </ul>
-              <a href="#" class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Inicia ahora</a>
+              <a href=https://ayni-web-app.netlify.app/signin class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link" aria-label="#">Start now</a>
         
         `
         card1.innerHTML = func_1;
